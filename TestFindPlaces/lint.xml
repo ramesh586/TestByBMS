@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/example/testfindplaces/ListItems.java" />
+    </issue>
+    <issue id="TrulyRandom">
+        <ignore path="src/com/example/testfindplaces/GooglePlacesOperater.java" />
+        <ignore path="src/com/example/testfindplaces/network/GooglePlacesOperater.java" />
+    </issue>
+</lint>

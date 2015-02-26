@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <com.example.testfindplaces.custom.MapWrapperLayout
+            android:id="@+id/map_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.google.android.gms.maps.SupportMapFragment" 
+                android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding"/>
+
+            
+
+        </com.example.testfindplaces.custom.MapWrapperLayout>
+    
+
+</LinearLayout>

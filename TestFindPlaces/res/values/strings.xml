@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestFindPlaces</string>
+    <string name="dummy_button">Search Parks</string>
+    <string name="dummy_content">WELCOME\nPark Wonder\nPlease wait finding your location</string>
+	<string name="Name">Name: </string>
+	<string name="Distance">Distance: </string>
+	<string  name="Favorite">Favorite Park</string>
+	<string name="refresh">Refresh</string>
+	<string name="Hybrid">Hybrid</string>
+	<string name="Satellite">Satellite</string>
+	<string name="Standard">Standard</string>
+	<string name="phone">Phone Number: </string>
+	<string name="reviews">Reviews: </string>
+	<string name="Ratings">Rating: </string>
+	<string name="open_hours">Open Hours: </string>
+	<string name="Address">Address: </string>
+	<string name="mylocation">MyLocation</string>
+	<string name="directions">Direction</string>
+	
+	<string name="MAP_KEY">AIzaSyC9aPYd1vvrnA94vfOH_tFSPpQHuYZ0jMI</string>
+	<string-array name="places">
+	    <item >food</item>
+	    <item >gym</item>
+	    <item >school</item>
+	    <item >hospital</item>
+	    <item >spa</item>
+	    <item >restaurant</item>
+	</string-array>
+</resources>

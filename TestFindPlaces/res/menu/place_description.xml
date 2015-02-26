@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    >
+    <item 
+        android:id="@+id/directions"
+        android:title="@string/directions"
+        android:icon="@android:drawable/ic_menu_directions"
+        compat:showAsAction="always"
+        />
+	<item android:id="@+id/fav"
+	    android:title="@string/Favorite"
+	    android:icon="@drawable/favorite_normal"
+	    compat:showAsAction="always"
+	    android:checkable="true"/>
+</menu>
